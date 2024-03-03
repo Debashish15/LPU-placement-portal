@@ -1,0 +1,252 @@
+body{
+    background-color:black;
+    background-image: url(./img/LPU3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+ height: fit-content;
+
+}
+/* sectipon 1 */
+.nav1{
+    display:grid;
+    background-color:brown;
+    color:antiquewhite;
+  
+}
+#img{
+    padding: 2px 10px;
+}
+#con{
+color: burlywood;
+text-align: center;
+margin: -30px;
+margin-left: -700px;
+margin-top: -60px;
+}
+#con1{
+ color: yellowgreen;
+ text-align: center;
+margin: -60px;
+margin-left: -500px;
+}
+#con2{
+color: yellow;
+text-align: center;
+margin: -50px;
+margin-left: 900px;
+}
+
+/* section 2 */
+.nav2{
+    background-color:black;
+    overflow: hidden;
+}
+.nav2 a{
+    text-decoration: none;
+    color: aliceblue;
+padding: 3px;
+letter-spacing: 2px;
+text-indent: 10px;
+}
+#right a{
+    color: white;
+    float: right;
+    margin-top: -18px;
+}
+.nav2 a:hover{
+background-color:tomato;
+}
+.content1{
+    background-color:brown;
+display:flex;
+justify-content: center;
+padding: 20px;
+}
+.content1  table{
+    color: black;
+    background-color: white;
+    border: 10px black double;
+}
+ .content1 th{
+    border: 2px black solid;
+    background-color: brown;
+    color: white;
+}
+.content1 td{
+    border: 2px black solid;
+    background-color: brown;
+    color: white;
+}
+.content1 #copy{
+    background-color:lightslategrey;
+    color: yellow;
+}
+
+/* content 2 */
+.content2{
+    display:grid;
+    background-color: brown;
+    color: white;
+}
+.content2 h2{
+    text-align: center;
+}
+.content2 table{
+    background-color: white;
+    color: brown;
+    text-align: center;
+}
+.content1 th{
+    background-color: brown;
+    
+}
+/* content 3 */
+
+.content3{
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+.content3 div{
+    display:flex ;
+}
+.content3 a{
+text-decoration: none;
+color: brown;
+background-color: white;
+}
+
+/* content4 */
+.content4{
+    background-color: brown;
+    text-align: center;
+    color: white;
+}
+.content4 h5{
+    background-color: white;
+    text-align: left;
+    color: black;
+}
+
+/* content 5 */
+.content5{
+    /* display: grid; */
+   
+}
+.content5{
+    background-color: brown;
+    opacity: 0.9;
+    color: white;
+    text-align: center;
+}
+.content5 table{
+    display: inline-block;
+    border: solid #ffff 2px;
+}
+.content5 td {
+    border: solid;
+    background-color: white;
+    color: black;
+}
+.content5 th{
+    background-color: white;
+    color: brown;
+}
+.content5 p{
+    color:teal;
+}
+
+/* content 6 */
+.content6{
+    background-color: brown;
+    color: white;
+    text-align: center;
+    border: black solid;
+    opacity: 0.9;
+}
+.content6 table{
+    display: grid;
+    text-align: center;
+    width: 1240px;
+
+}
+.content6  td {
+    border: black solid 2px;
+    background-color:black;
+    color:whitesmoke;
+    width: 1300px;
+
+}
+.content6 th{
+    border: wheat 2px solid;
+    background-color: yellow;
+    color: tomato;
+}
+.content6 a:hover{
+background-color: green;
+}
+
+/* content 7 */
+.content7{
+    background-color: brown;
+    text-align: center;
+}
+.content7 h2{
+color: white;
+}
+.content7 table{
+    /* display: flex; */
+    border: 2px solid white;
+    display: inline-block;
+    width: 1200px;
+
+}
+.content7 td{
+    border: double;
+    width: 1300px;
+    border: 2px solid yellow;
+    color: white;
+
+}
+.content7 th{
+    border: 2px solid white;
+    background-color: yellow;
+    color:brown;
+    opacity: 0.7;
+}
+
+/* content 8 */
+.content8{
+    background-color:black;
+    border: 2px solid white;
+  text-align: center;
+
+}
+.content8 h2{
+    color: white;
+    background-color: brown;
+}
+.content8 table{
+    display: inline-block;
+    /* width: 100px; */
+}
+.content8 th{
+color: white;
+width: 800px;
+border: 2px yellow double;
+text-align: center;
+}
+.content8 td{
+    background-color: white;
+    color:blueviolet;
+    width: 800px;
+}
+
+/* footer */
+footer{
+   display: flex;
+    float: right;
+    color: white;
+    opacity: 0.6;
+}

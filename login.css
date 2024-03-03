@@ -1,0 +1,73 @@
+body{
+    background-color:black;
+    background-image: url(./img/Lpu1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ height: fit-content;
+
+}
+/* sectipon 1 */
+.nav1{
+    display:grid;
+    background-color:brown;
+    color:antiquewhite;
+  
+}
+#img{
+    padding: 2px 10px;
+}
+#con{
+color: burlywood;
+text-align: center;
+margin: -30px;
+margin-left: -700px;
+margin-top: -60px;
+}
+#con1{
+ color: yellowgreen;
+ text-align: center;
+margin: -60px;
+margin-left: -500px;
+}
+#con2{
+color: yellow;
+text-align: center;
+margin: -50px;
+margin-left: 900px;
+}
+.menu{
+    background-color: white;
+    display: grid;
+    opacity: 0.8;
+
+}
+.menu h2{
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+.menu label{
+    text-align: center;
+    margin: 20px;
+    color: brown;
+}
+.menu input{
+padding: 5px;
+margin: 10px;
+}
+.menu h4{
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+button{
+    background-color: brown;
+    color: white;
+   width: 150px;
+   margin: 10px;
+   margin-left: 500px;
+}
+button:hover{
+    background-color: green;
+    color: aliceblue;
+}
