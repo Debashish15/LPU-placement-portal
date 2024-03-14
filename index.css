@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: brown; */
+    display:grid;
+
+}
+.head{
+    display:flex;
+}
+#headcall{
+    background-color: brown;
+}
+.head2 {
+    display: inline-flex;
+    margin: 14px;
+    margin-left: 100px;
+    padding: 5px;
+    opacity: 0.8;
+    background-color: white;
+}
+.head2 #con1{
+    letter-spacing: 3px;
+}
+/* content 3 */
+.cont3{
+    display:grid;
+    border: 0px solid black;
+    border-radius: 15px;
+    box-shadow: 50px 20px;
+}
+.cont3 #sel{
+    border: 1px white solid;
+    text-align: center;
+    border-width: 60px;
+    color: white;
+    background-color: brown;
+}
+.cont3 input{
+    width: 450px;
+    height: 30px;
+    margin: 8px;
+    border-radius: 10px;
+    text-align: center;
+}
+.cont3 select{
+    width: 450px;
+    height: 35px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.cont3 #call{
+    background-color: brown;
+    display: flex;
+    
+}
+#call select{
+    width: 300px;
+    text-align: center;
+    margin: 30px;
+}
+.cont3 input{
+    background-color: white;
+    color: black;
+}
+.cont3 button{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+}
+.cont3 button:hover{
+    background-color:black;
+    color: white;
+    font-family: monospace;
+    font-size: 150%;
+}

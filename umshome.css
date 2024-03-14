@@ -1,0 +1,218 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: grid;
+    background-color: black;
+    color: white;
+}
+
+/* sec 1 */
+.nav{
+    background-color: whitesmoke;
+    display: flex;
+}
+.navsam{
+margin: 30px;
+display: inline;
+margin-bottom: 10px;
+}
+.navsam a{
+    text-align: center;
+    text-decoration: none;
+    color: brown;
+}
+.navsam a:hover{
+    background-color:red;
+    color: white;
+    font-size: large;
+}
+.nav2{
+    background-color: brown;
+    text-align: right;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+
+
+/* sec 2 */
+.bar {
+    display: flex;
+    /* background-color: white; */
+}
+.bar a{
+    /* margin: 10px; */
+    padding: 2px 50px;
+}
+
+
+/* sec 3 */
+.sec3{
+    background-color: white;
+    width: 1280px;
+    color: black;
+}
+.sec3 #att1{
+    /* background-color: aqua; */
+
+}
+.sec3 button{
+    /* width: 300px; */
+    background-color: brown;
+    color: white;
+    opacity: 0.8;
+   width: 200px;
+}
+#att1{
+    /* padding: 10px; */
+}
+.sec3 #a{
+background-color: orange;
+color:black;
+width: 150px;
+height: 40px;
+border-radius: 20px;
+}
+.sec3 #b{
+background-color: rgb(41, 41, 216);;
+width: 80px;
+height: 40px;
+border-radius: 20px;
+}
+.sec3 #c{
+background-color: rgb(41, 41, 216);;
+width: 120px;
+height: 40px;
+border-radius: 20px;
+}
+.sec3 #d{
+background-color: orange;
+width: 120px;
+height: 40px;
+border-radius: 20px;
+color:black;
+}
+.sec3 #e{
+background-color: rgb(41, 41, 216);;
+width: 150px;
+height: 40px;
+border-radius: 20px;
+}
+.sec3 #f{
+background-color: rgb(41, 41, 216);;
+width: 150px;
+height: 40px;
+border-radius: 20px;
+}
+.sec3 #g{
+background-color: rgb(41, 41, 216);;
+width: 150px;
+height: 40px;
+border-radius: 20px;
+}
+.sec3 #h{
+ background-color: rgb(41, 41, 216);
+ width: 180px;
+ height: 35px;
+ border-radius: 20px;
+ }
+ .sec3 #i{
+background-color: green;
+width: 120px;
+height: 35px;
+border-radius: 20px;
+}
+
+/* sec 4 */
+ .sec4{
+    display: flex;
+    background-color: black;
+
+}
+.sec4 #imgset{
+    width: 950px;
+}
+.sec4 #textset{
+    width: fit-content;
+    height: 200px;
+}      
+#textset marquee{
+    height:170%;
+    background-image: url(./img/Lpu1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}   
+#textset {
+    /* background-image: url(./img/LPU4.jpeg); */
+}
+                  
+
+/* sec 5 */
+.sec5{
+    display: flex;
+    background-color: white;
+    color: black;
+    width: fit-content;
+}
+.sec5 #set1{
+    border: 3px grey double;
+    display: grid;
+    width: fit-content;
+    
+}
+#set1 div{
+    display: flex;
+}
+#set1 button{
+    width: 80px;
+border-radius: 20px;
+}
+#set1{
+    color: brown;
+    margin: 4px, 4px;
+    padding: 4px;
+    width: 500px;
+    height: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: justify;
+}
+#set1 button{
+    float: right;
+
+}
+.sec5 #set2{
+    border: 3px grey double;
+    display: grid;
+    /* width: fit-content; */
+    width: 500px;
+    background-color: brown;
+    color: white;
+}
+#setdata{
+    text-align: center;
+}
+#set2 a{
+    text-decoration: none;
+    color: white;
+}
+#set2 a:hover{
+background-color:black;
+color:white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: x-large;
+}
+#set2 button{
+margin-left: 400px;
+margin-bottom: -70px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+#set2 button:hover{
+    background-color: grey;
+    color:yellow;
+    margin-left: -2000px;
+}

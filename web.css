@@ -116,6 +116,10 @@ text-decoration: none;
 color: brown;
 background-color: white;
 }
+.content3 a:hover{
+    background-color: green;
+    color:violet;
+}
 
 /* content4 */
 .content4{
@@ -177,6 +181,9 @@ background-color: white;
     color:whitesmoke;
     width: 1300px;
 
+}
+.content6 button:hover{
+    color:sandybrown;
 }
 .content6 th{
     border: wheat 2px solid;
